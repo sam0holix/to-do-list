@@ -1,15 +1,15 @@
 import styled from 'styled-components'
 
 
-const MainScaffold = () => {
+const MainScaffold = ({selectedState}) => {
+  const [selected, setSelected] = selectedState 
   return (
-    <Container>main scaffold here</Container>
+    <Container>{`${selected} scaffold is here`}</Container>
   )
 }
 
 const Container = styled.div`
     flex:8;
-    background-color: orange;
 `
 
 export default MainScaffold
