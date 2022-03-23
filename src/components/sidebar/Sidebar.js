@@ -8,7 +8,7 @@ import {AiFillHome, AiTwotoneFolderOpen} from 'react-icons/ai'
 import {IoMdStats, IoMdChatbubbles,IoMdCalendar, IoMdSettings,} from 'react-icons/io'
 import {IoLogOutOutline} from 'react-icons/io5'
 
-const Sidebar = ({selectedState}) => {
+const Sidebar = ({selectedState}) => {  
   const [selected, setSelected] = selectedState
   const navItemArray = [
     ['Overview', <AiFillHome  size={24} />],

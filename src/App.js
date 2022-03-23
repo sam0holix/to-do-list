@@ -8,7 +8,7 @@ function App() {
   const [selected, setSelected] = useState('Projects')
   return (
     <Container>
-      <Sidebar selectedState={[selected, setSelected]} />
+      <Sidebar selectedState={[selected, setSelected]}/> 
       <MainScaffold selectedState={[selected, setSelected]}/>
     </Container>
   );
